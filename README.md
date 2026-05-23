@@ -23,6 +23,7 @@ Change the webhook variable at the beginning of the code:
 WEBHOOK_URL = "https://discord.com/api/webhooks/..."
 ```
 
+The Discord webhook can be easily found if you decompile, be careful.
 ---
 
 # ➜ Installation
