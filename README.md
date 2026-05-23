@@ -23,8 +23,6 @@ Open source Python project made for educational and demonstration purposes.
 ```python
 WEBHOOK_URL = "https://discord.com/api/webhooks/..."
 ```
-
-Keep your webhook private.
 Anyone with access to the executable or source code may recover the webhook URL.
 
 ---
