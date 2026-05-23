@@ -79,13 +79,106 @@ project/
 
 ```json
 {
-  "hostname": "DESKTOP-XXXX",
-  "os": "Windows 11",
-  "cpu_usage": "12%",
-  "ram_usage": "43%"
+  "pc": {
+    "hostname": "m*****",
+    "username": "t***",
+    "local_ip": "192.168.*.***",
+    "os": "Windows",
+    "release": "11",
+    "version": "10.0.*****",
+    "arch": "AMD64",
+    "cpu": "AMD64 Family ** Model ** Stepping *, ************",
+    "cores": 24,
+    "threads": 24,
+    "ram_gb": 31.94,
+    "boot_time": "**********",
+    "users": [
+      "t***"
+    ]
+  },
+
+  "ip": {
+    "ip": "**.***.**.***",
+    "hostname": "***.***.***.***.rev.***.net",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "country": "FR",
+    "loc": "**.****,*.****",
+    "org": "AS***** ***********************",
+    "postal": "75***",
+    "timezone": "Europe/Paris",
+    "readme": "https://ipinfo.io/missingauth"
+  },
+
+  "network": {
+    "Ethernet": [
+      {
+        "ip": "**-**-**-**-**-**",
+        "netmask": null,
+        "broadcast": null
+      },
+      {
+        "ip": "192.168.*.***",
+        "netmask": "255.255.255.0",
+        "broadcast": null
+      },
+      {
+        "ip": "****:****:****:****:****:****:****:****",
+        "netmask": null,
+        "broadcast": null
+      }
+    ],
+
+    "Wi-Fi": [
+      {
+        "ip": "**-**-**-**-**-**",
+        "netmask": null,
+        "broadcast": null
+      },
+      {
+        "ip": "169.254.***.***",
+        "netmask": "255.255.0.0",
+        "broadcast": null
+      }
+    ],
+
+    "Bluetooth Network Connection": [
+      {
+        "ip": "**-**-**-**-**-**",
+        "netmask": null,
+        "broadcast": null
+      }
+    ],
+
+    "Loopback Pseudo-Interface 1": [
+      {
+        "ip": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "broadcast": null
+      },
+      {
+        "ip": "::1",
+        "netmask": null,
+        "broadcast": null
+      }
+    ]
+  },
+
+  "ports": [
+    {
+      "ip": "0.0.0.0",
+      "port": "*****",
+      "status": "NONE"
+    },
+    {
+      "ip": "192.168.*.***",
+      "port": "*****",
+      "status": "ESTABLISHED"
+    }
+  ]
 }
 ```
-
+(+ a photo of all the cameras connected to the computer)
 ---
 
 ## License
