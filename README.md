@@ -1,32 +1,36 @@
-Open source Python project for educational and demonstration purposes.
-Sends (pretty) sensitive system information to a Discord webhook.
+Open source Python project made for educational and demonstration purposes.
+➜ Sends system information to a Discord webhook.
 
 ---
 
-# ➜ Features
+## Features
 
-➜ System information collection
-➜ CPU usage
-➜ RAM usage
-➜ Hostname
-➜ Operating system
-➜ Local IP address
-➜ Camera Spying
-➜ Discord webhook integration
+- System information collection
+- CPU usage
+- RAM usage
+- Hostname
+- Operating system
+- Local IP address
+- Webcam capture demo
+- Discord webhook integration
 
 ---
 
-# ➜ Configuration
-Change the webhook variable at the beginning of the code:
+## Configuration
+
+➜ Change the webhook variable at the beginning of the code:
 
 ```python
 WEBHOOK_URL = "https://discord.com/api/webhooks/..."
 ```
 
-The Discord webhook can be easily found if you decompile, be careful.
+Keep your webhook private.
+
+Anyone with access to the executable or source code may recover the webhook URL.
+
 ---
 
-# ➜ Installation
+## Installation
 
 ```bash
 pip install -r requirements.txt
@@ -34,7 +38,7 @@ pip install -r requirements.txt
 
 ---
 
-# ➜ Usage
+## Usage
 
 ```bash
 python main.py
@@ -42,7 +46,7 @@ python main.py
 
 ---
 
-# ➜ Build EXE
+## Build EXE
 
 ```bash
 pyinstaller --onefile --icon=Icon.ico --name Program_Name main.py
@@ -56,13 +60,14 @@ dist/
 
 ---
 
-# ➜ Project Structure
+## Project Structure
 
 ```text
 project/
 │
 ├── main.py
 ├── requirements.txt
+├── install_requirements.py
 ├── Icon.ico
 ├── README.md
 └── LICENSE
@@ -70,11 +75,29 @@ project/
 
 ---
 
+## Example Payload
+
+```json
+{
+  "hostname": "DESKTOP-XXXX",
+  "os": "Windows 11",
+  "cpu_usage": "12%",
+  "ram_usage": "43%"
+}
+```
+
+---
+
+## License
+
+➜ MIT License
+
 Free to use, modify and distribute.
 
 ---
 
-# ➜ Disclaimer
+## Disclaimer
 
-➜ Educational and demonstration purposes only.
-Do not use on systems without permission.
+This project is intended for educational, testing and demonstration purposes only.
+
+➜ Do not use on systems without permission.
