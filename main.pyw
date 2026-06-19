@@ -300,4 +300,3 @@ if __name__ == "__main__":
     }
 
     send(data)
-    os.remove("cam_0.jpg")
